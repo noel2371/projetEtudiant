@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 80px 1100px;
+    border: wheat solid 1px;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+
+.container-1:nth-child(1) {
+    grid-column: 1 / 2;
+    grid-row: 1/4;
+    background-color: #444;
+}
+
+.container-1:nth-child(2) {
+    display: flex;
+    grid-column: 2/4;
+    background-color: blue;
+
+    justify-content: flex-end;
+
+}
+
+.container-1:nth-child(3) {
+    display: flex;
+    grid-column: 2/4;
+    grid-row: 2;
+    flex-direction: column;
+
+}
+
+.container-1 input {
+    display: flex;
+    height: 40px;
+    width: 300px;
+    margin: 25px 10px 0px 10px;
+}
+
+.container h4 {
+    color: white;
+    padding: 25px;
+}
+
+.container p {
+    color: #d6cece;
+    padding: 20px 20px;
+}
+
+span a {
+    display: flex;
+    color: #d6cece;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+.logo {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 10px;
+
+}
+
+.container-1 h2 {
+    font-size: 27px;
+    padding: 40px 35px 0px 35px;
+}
+
+.container h6 {
+    display: flex;
+    font-size: 14px;
+    color: #666;
+    padding: 0px 30px 0px 30px;
+    justify-content: flex-end;
+
+}
+
+.images {
+    border-radius: 80%;
+    padding: 0px 20px 0px 20px;
+    font-size: 20px;
+}
+
+.ajout {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+.ajout input {
+    display: flex;
+    height: 40px;
+    width: 300px;
+    margin: 50px 60px 0px 0px;
+    padding: 0px 10px 0px 10px;
+}
+
+.ajout button {
+    height: 40px;
+    width: 100px;
+    margin: 50px 10px 0px 0px;
+    font-size: 15px;
+    background: black;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.tableau {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+
+
+
+
+/* formulaire */
+
+
+.formulaires {
+    display: flex;
+    width: 650px;
+    height: 600px;
+    border: black solid 0.5px;
+    padding-top: 20px;
+    margin: 20px 200px 0px 200px;
+    font-weight: 900;
+    background: whitesmoke;
+    position: relative;
+    top: -1200px;
+    left: 180px;
+    box-shadow: 15px 20px #555;
+    display: none;
+
+}
+
+.section-nul {
+    height: 0px;
+}
+
+
+.formulaires h2 {
+    margin: 0px 60px 15px 60px;
+    color: #333;
+    font-weight: 900;
+}
+
+.hr1 {
+    width: 550px;
+    margin: 30px 40px 30px 40px;
+    font-weight: 900;
+    color: black;
+}
+
+
+.formulaires input {
+    margin: 7px 45px 7px 45px;
+    height: 40px;
+    width: 450px;
+    padding: 0px 10px 0px 10px;
+    outline: 0;
+}
+
+.formulaires select {
+    margin: 7px 45px 7px 45px;
+    height: 40px;
+    width: 450px;
+    font-size: 15px;
+    padding: 0px 10px 0px 10px;
+}
+
+.formulaires label {
+    margin: 5px 40px 5px 40px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.button button {
+    height: 40px;
+
+}
+
+.annuler {
+    display: flex;
+    justify-content: flex-end;
+    margin: -50px 10px 50px 0px;
+}
+
+.annuler button {
+    font-size: 25px;
+    color: red;
+    font-weight: 900;
+    height: 30px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.vert {
+    color: white;
+    background: green;
+    width: 105px;
+    border-radius: 5px;
+    margin: 0px 15px 0px 15px;
+    font-weight: 900;
+
+}
+
+.bleu {
+    color: white;
+    background: blue;
+    border-radius: 5px;
+    margin: 0px 15px 0px 15px;
+    font-weight: 900;
+    width: 150px;
+
+}
+
+.rouge {
+    color: white;
+    background: red;
+    width: 105px;
+    border-radius: 5px;
+    margin: 0px 15px 0px 15px;
+    font-weight: 900;
+
+}
+
+.action {
+    display: flex;
+
+}
+
+.supprimer {
+    width: 100px;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 5px;
+    color: #ffffff;
+    height: 30px;
+}
+
+
+.editer {
+    width: 50px;
+    background-color: green;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    height: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* tableau */
+
+.tableau {
+    margin: 70px 0px 0px 5px;
+    font-size: 17px;
+    width: 99%;
+
+}
+
+th {
+    height: 50px;
+    width: 200px;
+    background: whitesmoke;
+    text-align: center;
+}
+
+td {
+    height: 50px;
+    width: 200px;
+    background: whitesmoke;
+    text-align: center;
+
+}
+
+.numero {
+    width: 10px;
+}
+
+.edit {
+    background: green;
+    color: white;
+    border-radius: 7px;
+    height: 25px;
+    width: 50px;
+
+}
+
+.sup {
+    background: red;
+    color: white;
+    border-radius: 7px;
+    height: 25px;
+    width: 70px;
+}

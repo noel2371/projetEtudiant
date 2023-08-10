@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projet-stage</title>
+        <link rel="stylesheet" href="./css/style.css">
+
+    </head>
+
+    <body>
+
+        <section>
+            <div class="container">
+                <div class="container-1">
+                    <h4>INSITEC CLASS V1</h4> <img class="images" src="./logo insitec.jpg" alt="#">
+                    <p>Welcome <strong>Noel</strong></p> <br><br>
+                    <span><a href="./tableau.bord.html">Tableau de Bord </a></span>
+                    <span> <a href="./index.html">Gestion des etudiants</a></span>
+                    <span> <a href="./gestion.enseignant.html">Gestion des enseignants</a></span>
+                    <span> <a href="./gestion.cour.html">Gestion des Cours</a></span>
+                    <span> <a href="./gestion.utilisateur.html">Gestion des utilisateurs</a></span>
+                    <span> <a href="./calendrier.cour.html">Calendrier des cours</a></span>
+                    <span> <a href="./deconnexion.html">Deconnection</a></span>
+
+                </div>
+                <div class="container-1 "> <input type="text" name="" id="recherche_1" placeholder="     Recherche....">
+                </div>
+                <div class="container-1 "><img class="logo" src="./logo insitec.jpg" alt="#">
+                    <h2>GESTION DES ETUDIANTS</h2>
+                    <h6>INSITEC V1/Gestion étudiants</h6>
+                    <div class="ajout">
+                        <div><button id="ajouter" class="ajouter">Ajouter</button></div>
+                        <div><input type="text" id="recherche_2" placeholder="Recherche ..."></div>
+
+                    </div>
+
+                    <div class="tableau">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="numero">N*</th>
+                                    <th>Id</th>
+                                    <th>Nom</th>
+                                    <th>Prenom</th>
+                                    <th>Niveau</th>
+                                    <th>Specialitee</th>
+                                    <th>Departement</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+
+                            <tbody id="content">
+
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <td class="action">
+                                        <div><button>bbb</button>
+                                            <div></div>
+                                        </div>
+                                    </td>\
+
+
+                                </tr>
+
+
+
+                            </tbody>
+
+                        </table>
+                    </div>
+                    <!-- <div id="afficher">
+
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+
+ -->
+
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+        <section id="formulaires" class="formulaires">
+            <h2>OPERATION SUR LES ETUDIANTS</h2>
+            <div id="annuler" class="annuler"><button>X</button></div>
+            <hr class="hr1">
+
+            <form>
+
+                <label for="text">Nom</label>
+                <input type="text" name="" class="element" id="nom">
+
+                <label for="text">Prenom</label>
+                <input type="text" name="" class="element" id="prenom">
+
+                <label for="select">Niveau</label>
+                <select name="niveau" class="element" id="niveau">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <label for="select">Departement</label>
+                <select name="Niveau" class="element" id="departement">
+                    <option value="Genie informatique">Genie informatique</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <label for="select">Specialite</label>
+                <select name="Niveau" class="element" id="specialite">
+                    <option value="genie logiciel">Genie logiciel</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+
+
+                <hr class="hr1">
+                <div class="button">
+
+                    <button type="button" class="vert" id="valider">Valider</button>
+                    <button type="button" class="bleu" id="ajouter_et_continuer">Valider et continuer</button>
+                    <button type="button" class="rouge" id="annuler2">Annuler</button>
+
+                </div>
+            </form>
+        </section>
+
+
+
+
+    </body>
+
+</html>
+
+<script src="data.js"></script>
+<script src="./sript.js"></script>
+<script>
+    affichage(); 1
+</script>
+
+</body>
+
+</html>
